@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: short-link-service
+
+# 短链服务配置
+short-link:
+  # 短码长度（7位）
+  code-length: 7
+  # Base62 检测 HEAD 请求超时（毫秒）
+  detect-timeout-ms: 3000

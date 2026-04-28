@@ -1,0 +1,51 @@
+# Maven 编译产物
+target/
+*.class
+
+# Maven 包装器
+.mvn/wrapper/maven-wrapper.jar
+
+# 日志与 PID
+logs/
+*.log
+*.pid
+
+# Spring Boot 打包产物
+*.jar
+*.war
+*.ear
+
+# 本地 IDE 配置 - IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# 本地 IDE 配置 - Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# 本地 IDE 配置 - VS Code
+.vscode/
+
+# 系统文件 - macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 系统文件 - Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 系统文件 - Linux
+*~
+
+# 环境变量 / 本地配置（含敏感信息，禁止提交）
+.env
+.env.local
+application-local.yml
+application-local.properties

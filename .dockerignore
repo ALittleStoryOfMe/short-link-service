@@ -1,0 +1,9 @@
+# 排除不需要复制进镜像的文件，加速构建上下文传输
+target/
+*.log
+logs/
+.git/
+.gitignore
+*.md
+start.sh
+docker-start.sh
